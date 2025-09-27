@@ -5,9 +5,6 @@ Cleans the scraped data and saves it into a CSV file for further analysis.
 
 ---
 
-## 🗂️ Project Structure
-```
-=======
 # Yahoo Finance Most Active Stocks Scraper
 
 A Python-based web scraper that extracts the **most active stocks** from Yahoo Finance, cleans the data, and saves it as a CSV file. Built using **Selenium** for web scraping and **Pandas** for data cleaning.
@@ -37,6 +34,7 @@ A Python-based web scraper that extracts the **most active stocks** from Yahoo F
 
 ## Project Structure
 ```
+yahoo_finance_scraper/
 │
 ├── scraper/
 │ ├── init.py
@@ -51,6 +49,8 @@ A Python-based web scraper that extracts the **most active stocks** from Yahoo F
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
 ```
+
+
 ## 🚀 Installation
 
 ### 1️⃣ Clone the Repository
@@ -72,32 +72,33 @@ Copy code
 
 ## Installation
 
-1. **Clone the repository**
+- **Clone the repository**
 
 ```bash
 git clone https://github.com/yourusername/yahoo_finance_scraper.git
-cd yahoo_finance_scraper```
+cd yahoo_finance_scraper
+```
 
-2.**Create a virtual environment (optional but recommended)**
+- **Create a virtual environment (optional but recommended)**
 
 ```bash
 Copy code
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate```
+source venv/bin/activate # On Windows: venv\Scripts\activate
+```
 
-3.**Install dependencies**
+- **Install dependencies**
 
 ```bash
-Copy code
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 4.**Download ChromeDriver**
->>>>>>> 5e40378aef492ccfb7a62926061832e6e1a14f11
 
-Make sure the version matches your Chrome browser.
+- Make sure the version matches your Chrome browser.
 
-Add it to your system PATH or place it in the project directory.
+- Add it to your system PATH or place it in the project directory.
 
-<<<<<<< HEAD
+
 ## 🖥️ Usage
 Run the scraper:
 ```bash
@@ -134,4 +135,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ### Sikder Sabit Al Fahad ###
 - Github: https://github.com/sabitalfahad
 - Email: sabitalfahad.info@gmail.com
-
