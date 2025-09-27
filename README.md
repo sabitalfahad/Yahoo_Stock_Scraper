@@ -63,13 +63,10 @@ cd yahoo_finance_scraper
 pip install -r requirements.txt
 ```
 ### 3️⃣Download ChromeDriver
-=======
 
-yaml
-Copy code
+- Make sure the version matches your Chrome browser.
 
----
-
+- Add it to your system PATH or place it in the project directory.
 ## Installation
 
 - **Clone the repository**
@@ -82,7 +79,6 @@ cd yahoo_finance_scraper
 - **Create a virtual environment (optional but recommended)**
 
 ```bash
-Copy code
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 ```
@@ -92,13 +88,6 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-4.**Download ChromeDriver**
-
-- Make sure the version matches your Chrome browser.
-
-- Add it to your system PATH or place it in the project directory.
-
-
 ## 🖥️ Usage
 Run the scraper:
 ```bash
