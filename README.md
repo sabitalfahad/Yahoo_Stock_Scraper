@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📈 Yahoo Finance Most Active Stocks Scraper
 
 A Python scraper to extract **Most Active Stocks** data from Yahoo Finance using **Selenium** and **Pandas**.  
@@ -138,60 +137,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ### Sikder Sabit Al Fahad ###
 - Github: https://github.com/sabitalfahad
 - Email: sabitalfahad.info@gmail.com
-=======
-Usage
-Run the scraper:
 
-```bash
-Copy code
-python scraper/stock_scraper.py```
-
-The script will open Chrome, navigate to Yahoo Finance, scrape the most active stocks, clean the data, and save it to data/most_active_stocks.csv.
-
-Check the video demo in the demo/ folder.
-
-Output
-The CSV file will contain the following columns:
-
-Column	Description
-Symbol	Stock symbol
-Name	Company name
-Price_usd	Current stock price in USD
-Change	Price change
-Volume_M	Trading volume (in millions)
-Market Cap	Market capitalization
-PE_Ratio	Price-to-Earnings ratio
-
-Contributing
-1.Fork the repository
-
-2.Create a branch (git checkout -b feature/your-feature)
-
-3.Commit your changes (git commit -m "Add feature")
-
-4.Push to the branch (git push origin feature/your-feature)
-
-5.Open a Pull Request
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Author
-Your Name
-
-GitHub: yourusername
-
-Email: your.email@example.com
-
-Demo
-You can view the scraper in action in the demo/demo_run.mp4 file.
-
-pgsql
-Copy code
-
-✅ This is fully Markdown-ready, and it looks professional on GitHub.  
-
-If you want, I can **also create a `.gitignore`** specifically for this setup so that the `__pycache__`, ChromeDriver, and possibly large video files are handled correctly.  
-
-Do you want me to create that `.gitignore` too?
->>>>>>> 5e40378aef492ccfb7a62926061832e6e1a14f11
