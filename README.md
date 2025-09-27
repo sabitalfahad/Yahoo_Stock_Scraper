@@ -36,9 +36,7 @@ A Python-based web scraper that extracts the **most active stocks** from Yahoo F
 ---
 
 ## Project Structure
-
->>>>>>> 5e40378aef492ccfb7a62926061832e6e1a14f11
-yahoo_finance_scraper/
+```
 │
 ├── scraper/
 │ ├── init.py
@@ -52,7 +50,6 @@ yahoo_finance_scraper/
 │
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
-<<<<<<< HEAD
 ```
 ## 🚀 Installation
 
